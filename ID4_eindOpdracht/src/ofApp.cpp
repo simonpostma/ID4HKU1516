@@ -78,13 +78,6 @@ void ofApp::draw(){
 	grabber.draw(0, 0);
 
 	// Particles Draw
-	ofEnableAlphaBlending();
-	//ofSetColor(ofColor::black, FADE_TRAIL);
-	//ofFill();
-	//ofDrawRectangle(0, 0, ofGetWidth(), ofGetHeight());
-	//ofDisableAlphaBlending();
-	//ofFill();
-	
 	for (int i = 0; i < particles.size(); i++) {
 		ofEnableAlphaBlending();
 		particles[i].draw();
