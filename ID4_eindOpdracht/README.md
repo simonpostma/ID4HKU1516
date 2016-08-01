@@ -1,6 +1,6 @@
 Required libraries:
 
-ofxGui
-ofxOpenCV
-ofxParticles
+ofxGui, 
+ofxOpenCV, 
+ofxParticles, 
 ofxVboParticles
